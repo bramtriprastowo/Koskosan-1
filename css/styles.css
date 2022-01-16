@@ -1,0 +1,264 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Serif", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a.nav-item {
+  text-decoration: none;
+  display: block;
+  padding: 0 0.5rem;
+}
+
+a.nav-item:link, a.nav-item:visited {
+  color: black;
+}
+
+a.nav-item:hover {
+  border-bottom: 2px solid #cac300;
+}
+
+.bg-icon {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #cac300;
+}
+
+.img-header {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar{
+  display: flex;
+}
+
+.nav-space {
+  width: 11%;
+}
+
+.navlogo, .nav1, .nav2 {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: white;
+}
+
+.navlogo {
+  display: inline-block;
+  width: 10%;
+  font-size: 20px;
+}
+
+.nav1 > ul li {
+  display: inline-block;
+}
+
+.nav1 {
+  display: inline-block;
+  width: 50%;
+  padding-left: 4rem;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.nav2 {
+  display: inline-block;
+  text-align: right;
+}
+
+.button-contact {
+  text-decoration: none;
+  font-family: "PT Serif", sans-serif;
+}
+
+.button-contact > a {
+  text-decoration: none;
+  color: #cac300;
+  border-radius: 10px;
+  border: solid #cac300;
+  padding: 5px 20px;
+}
+
+.button-contact > a:hover {
+  background-color: #cac300;
+  color: #ffffff;
+}
+
+.head {
+  font-family: "PT Serif", sans-serif;
+  font-size: 30px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  top: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Images slideshow */
+.img-slide-fit {
+  width: 100%;
+  height: 600px;
+}
+
+.img-slide {
+  width: 80%;
+  height: 100%;
+}
+
+.slideshow-gallery {
+  position: relative;
+  text-align: center;
+}
+
+.img-slide-fit-gallery {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  overflow: hidden;
+  margin: auto;
+}
+
+.img-slide-gallery {
+  width: 30%;
+  height: 200px;
+}
+
+.container {
+  text-align: center;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.next, .prev {
+  cursor: pointer;
+  position: absolute;
+  bottom: 100px;
+  width: 37px;
+  height: 37px;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 190%;
+  opacity: .3;
+}
+
+.next {
+  right: 20px;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next:hover, .prev:hover {
+  opacity: 1;
+}
+
+/* The dots/bullets/indicators */
+.head {
+  text-align: center;
+  display: block;
+  padding: 30px 0 30px;
+}
+
+.dot {
+  content: "";
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0 50px;
+  display: inline-block;
+}
+
+.active {
+  border-bottom: 2px solid #cac300;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-name: fade;
+  -moz-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.facility {
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.facility-content {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  width: 25%;
+  padding: 20px 0;
+}
+
+.facility-content:hover {
+  background-color: #e8e8e8;
+}
+.facility-icon {
+  color: #000000;
+}
+
+.peta {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 3px #cac300;
+}
+
+.contact {
+  padding: 100px 11% 20px;
+  line-height: 5px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+html {
+  scroll-behavior: smooth;
+}
